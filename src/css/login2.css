@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    height: 85vh;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/021/787/229/original/cute-pastel-colored-seamless-pattern-background-illustration-with-books-blue-hearts-and-pencil-vector.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 50%;
+    min-width: 300px;
+    max-width: 100px;
+    height: 180px;
+    text-align: center;
+}
+
+.top-header{
+    width: 50%;
+    min-width: 300px;
+    max-width: 100px;
+    height: 116px;
+    text-align: center;
+}
+
+form{
+    background: grey;
+    border-radius: 25px;
+    position: relative;
+}
+
+h1{
+    color: black;
+    padding: 12px;
+}
+
+input{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 25px;
+    font-size: 15px;
+    padding: 8px 40px 8px 20px;
+    border: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 18px;
+}
+
+button i{
+    color: rgb(93, 94, 95);
+}
+
+button:hover i{
+    color: rgb(162, 163, 163);
+}
+
+input-field{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 25px;
+    font-size: 15px;
+    padding: 8px 40px 8px 20px;
+    border: none;
+}
